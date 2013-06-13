@@ -2,6 +2,8 @@ assemblySettings
 
 resolvers += "bodar" at "http://repo.bodar.com/"
 
+parallelExecution in Test := false
+
 libraryDependencies ++= Seq(
   "com.googlecode.utterlyidle" % "utterlyidle" % "633",
   "jline" % "jline" % "2.11"
