@@ -1,0 +1,1 @@
+alias start-web= ; run-main javarepl.web.WebConsoleServer
